@@ -427,7 +427,7 @@ void menuStartupPath(void) {
     #else
     getcwd(rootPathBase, sizeof(rootPathBase));
     #endif
-    snprintf(rootPath, sizeof(rootPath)-1, "%s%s%s", rootPathBase, DIRECTORY_SEPARATOR, "switch");
+    snprintf(rootPath, sizeof(rootPath)-1, "%s%s%s", rootPathBase, DIRECTORY_SEPARATOR, "roms");
 
     struct stat st = {0};
 
